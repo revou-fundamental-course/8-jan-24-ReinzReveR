@@ -1,0 +1,146 @@
+/* style.css */
+
+/* Styling untuk body dan gambar latar belakang */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-image: url(https://mmc.tirto.id/image/otf/1024x535/2023/02/28/ilustrasi-matematika-istokc_ratio-16x9.jpg);
+    background-size: 1574px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Styling untuk kotak */
+.kotak {
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* Styling untuk header */
+.header {
+    background-color: #3b92f5;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.432);
+}
+
+/* Styling untuk judul dan deskripsi header */
+.header h1 {
+    text-align: center;
+    margin: 0;
+}
+
+.Judul1 {
+    font-size: 25px;
+    color: white;
+    font-weight: bolder;
+}
+
+.Judul2 {
+    font-size: 20px;
+    color: lightcyan;
+}
+
+/* Styling untuk penjelasan */
+.header h2{
+    margin-top: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.header p {
+    margin-top: 20px;
+    font-size: medium;
+}
+
+.penjelasan {
+    text-align: center;
+    font-size: 10px;
+}
+
+/* Styling untuk Nama Bagian Perhitungan */
+#NamaJudulKalkulator {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #3b92f5;
+}
+
+/* Styling untuk kalkulator */
+.kalkulator {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.432);
+    margin: 20px 0;
+}
+
+/* Styling untuk label dan input*/
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #3b92f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    color: #3b92f5;
+    border-color: #3b92f5;
+}
+
+/* Styling untuk tombol */
+.tombolHitung {
+    background-color: #3b92f5;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.tombolHitung:hover {
+    background-color: #1882fa;
+}
+
+/* Styling untuk result */
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #3b92f5;
+}
+
+/* Styling untuk tombol switch */
+#tombolSwitch {
+    background-color: #3b92f5;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: left;
+}
+
+#tombolSwitch:hover {
+    background-color: #1882fa;
+}
+
+.tombolReset {
+    background-color: #3b92f5;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: left;
+}
+
+.tombolReset:hover {
+    background-color: #1882fa;
+}

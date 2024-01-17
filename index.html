@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!-- Calculator Math.html -->
+<html>
+<head>
+    <title>KATIK</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <!-- Kotak utama -->
+    <div class="kotak">
+
+        <!-- Bagian Header -->
+        <div class="header">
+            <!-- Judul dan deskripsi header -->
+            <h1 class="Judul1">KATIK <em class="Judul2">kalkulator matematik</em></h1>
+            <h2>Selamat datang di KATIK</h2>
+            <p class="penjelasan">Ini adalah sebuah website yang memiliki kegunaan sebagai <strong><em>penghitung luas dan keliling dari persegi</em></strong></p>
+        </div>
+        
+        <!-- Bagian Kalkulator -->
+        <div class="kalkulator">
+            <!-- Nama Bagian Perhitungan-->
+            <h3 id="NamaJudulKalkulator">Hitung Luas</h3>
+
+            <!-- Label dan input panjang -->
+            <label for="length">Panjang :</label>
+            <input type="number" id="length" placeholder="Masukkan panjang (dalam satuan cm)">
+        
+            <!-- Label dan input lebar -->
+            <label for="width">Lebar :</label>
+            <input type="number" id="width" placeholder="Masukkan lebar (dalam satuan cm)">
+
+            <!-- Tombol Hitung -->
+            <button class="tombolHitung" onclick="hitung()">Hitung</button>
+
+            <!-- Hasil -->
+            <p id="result">Hasil: </p>
+
+            <!-- Tombol Switch -->
+            <button id="tombolSwitch" onclick="switchMode()">Switch to Keliling</button>
+
+            <!-- Tombol Reset -->
+            <button class="tombolReset" onclick="reset()">Reset</button>
+        </div>
+    </div>
+
+    <!-- Script JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
