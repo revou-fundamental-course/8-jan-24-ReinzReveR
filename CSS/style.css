@@ -5,7 +5,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     background-image: url(https://mmc.tirto.id/image/otf/1024x535/2023/02/28/ilustrasi-matematika-istokc_ratio-16x9.jpg);
-    background-size: 1574px;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -143,4 +143,37 @@ input {
 
 .tombolReset:hover {
     background-color: #1882fa;
+}
+
+/* Media queries untuk tampilan responsif */
+@media only screen and (max-width: 600px) {
+    /* Styling untuk layar berukuran maksimum 600px */
+    .kotak {
+        max-width: 100%;
+        margin: 10px;
+    }
+
+    .header {
+        padding: 15px;
+    }
+
+    .Judul1 {
+        font-size: 20px;
+    }
+
+    .Judul2 {
+        font-size: 15px;
+    }
+
+    .penjelasan {
+        font-size: 10px;
+    }
+
+    .kalkulator {
+        padding: 15px;
+    }
+
+    .cr {
+        padding: 15px;
+    }
 }
